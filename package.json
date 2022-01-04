@@ -18,24 +18,27 @@
     "ng-yunzai-sts": "src/index.js"
   },
   "dependencies": {
-    "meow": "^5.0.0",
+    "@types/minimist": "^1.2.2",
     "@types/swagger-schema-official": "^2.0.15",
-    "extend": "^3.0.2"
+    "extend": "^3.0.2",
+    "meow": "^5.0.0",
+    "request": "^2.88.0"
   },
   "devDependencies": {
-    "@types/node": "^10.12.2",
-    "@types/meow": "^5.0.0",
-    "@types/mocha": "^5.2.5",
     "@types/chai": "^4.1.7",
     "@types/extend": "^3.0.0",
-    "typescript": "^3.2.2",
+    "@types/meow": "^5.0.0",
+    "@types/mocha": "^5.2.5",
+    "@types/node": "^10.12.2",
+    "@types/request": "^2.48.1",
+    "@types/sinon": "^7.0.7",
+    "chai": "^4.2.0",
+    "chalk": "^2.4.0",
+    "mocha": "^5.2.0",
+    "sinon": "^7.2.4",
     "ts-node": "^7.0.1",
     "tslint": "^5.11.0",
     "tslint-config-prettier": "^1.17.0",
-    "mocha": "^5.2.0",
-    "chalk": "^2.4.0",
-    "chai": "^4.2.0",
-    "sinon": "^7.2.4",
-    "@types/sinon": "^7.0.7"
+    "typescript": "^3.2.2"
   }
 }
